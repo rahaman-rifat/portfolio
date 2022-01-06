@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.d-flex{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center; 
+}
+button, input[type=submit] {
+    background-color: #27b1ff;
+    color:#fff;
+    margin: 20px 0px;
+    padding: 15px 30px;
+    border:none;
+    border-radius: 5px;
+}
+p,h3{
+    font-family: 'Poppins', sans-serif;
+}
+section h1{
+    font-size: 46px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 60px;
+}
+span{
+    color:#27b1ff;
+    font-size:45px;
+}
+/*
+ ==========================================================================
+ Hero Section
+ ==========================================================================
+*/
+section{
+    width: 80%;
+    margin:0 auto;
+}
+#hero h1{
+    padding-left: 10px;
+    font-family: 'Yeseva One', cursive;
+    border-left: 5px solid #27b1ff;
+
+}
+.hero-desc{
+    font-size: 18px;;
+    padding-top: 20px;
+}
+
+#hero .col-2 img{
+    padding-left: 30%;
+}
+/*
+ ==========================================================================
+ Mission Section
+ ==========================================================================
+*/
+.mission-title{
+    font-size: 48px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+}
+
+#mission div{
+    margin: 10px;
+    padding: 45px 25px;
+    border-radius: 25px;
+}
+#mission .s-1{
+    background-color: #edf5f6;
+}
+#mission .s-2{
+    background-color: #ffeeee;
+}
+#mission .s-3{
+    background-color: #fff4d6;
+}
+.service-title{
+    font-size: 24px;
+    line-height: 45px;
+}
+
+/*
+ ==========================================================================
+ Explore Section
+ ==========================================================================
+*/
+#mission div img{
+    width: 40%;
+}
+.mission-img{
+    width: 45%;
+}
+.mission-info{
+    width: 65%;
+    margin-right: 15px;
+}
+.mission-info p{
+    text-align: justify;
+}
+
+/*
+ ==========================================================================
+ Footer Section
+ ==========================================================================
+*/
+#footer{
+    width: 100%;
+    height: 120px;
+    text-align:center;
+    background-color: #0b0d17;
+    color: #fff;
+    padding-top: 50px;
+}
+#footer h1{
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+}
+#footer span{
+    color:#27b1ff;
+    font-size: 36px;
+    font-family: 'Lobster', cursive;
+}
+/*
+ ==========================================================================
+ Contact Section
+ ==========================================================================
+*/
+#contact{
+    height:500px;
+}
+.title{
+    font-size: 48px;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    padding: 30px 0; 
+}
+.contact-info{
+    width: 38%;
+}
+.contact-form{
+    width: 50%;
+}
+
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
